@@ -1,0 +1,24 @@
+.content {
+    background-color: ivory;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 420px) {
+    .content {
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+}
+@media (min-width: 762px) {
+    .content {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end:  6;
+    }
+}

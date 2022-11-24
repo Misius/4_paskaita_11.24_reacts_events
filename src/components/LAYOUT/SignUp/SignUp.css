@@ -1,0 +1,15 @@
+.signUp {
+    background-color: #d6e9fe;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 762px) {
+    .signUp {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}

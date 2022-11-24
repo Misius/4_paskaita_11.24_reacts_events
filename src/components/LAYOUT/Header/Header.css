@@ -1,0 +1,13 @@
+.header {
+    background-color: #8cb6e6;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 762px) {
+    .header {
+        height: 400px;
+    }
+}
